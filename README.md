@@ -6,11 +6,10 @@ A Python script that downloads audio from a given youtube url (optional), lets u
 
 
 # Dependencies
-Note: Use pip to download the dependencies, it may not work the other way
 
 * [youtube-dl](https://github.com/rg3/youtube-dl/)
 * [mutagen](https://github.com/quodlibet/mutagen)
-* [TkInter](https://wiki.python.org/moin/TkInter)
+* [TkInter](https://wiki.python.org/moin/TkInter) (if it doesn't work, install it using your distro package manager. eg: for arch, it would be: ```sudo pacman -S tk```)
 
 # Usage
 ```python main.py [youtube url]``` to download audio from Youtube and edit tags.
